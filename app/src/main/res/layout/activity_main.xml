@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/rootLayout"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="259dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/register"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="259dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-136dp"
+        android:background="@drawable/rounded_button_fill"
+        android:text="@string/sign_in"
+        android:textColor="@color/signinbtncolor"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+</RelativeLayout>

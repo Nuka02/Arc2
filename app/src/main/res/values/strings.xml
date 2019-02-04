@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Arc R</string>
+    <string name="sign_in">Prijava</string>
+    <string name="register">Registracija</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="broj_telefona">Broj telefona</string>
+    <string name="ime_i_prezime">Ime i Prezime</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
